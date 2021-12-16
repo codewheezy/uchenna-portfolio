@@ -17,7 +17,7 @@ export const services: Service[] = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Handle database, server, api using <b>Express, Django </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
@@ -28,19 +28,19 @@ export const services: Service[] = [
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "A daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Adobe XD</b> ",
+      "Stunning user interface designer using <b>Figma</b>  and  <b>Adobe XD</b> ",
   },
   {
     Icon: RiComputerLine,
     title: "Whatever",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "I love playing Football, table Tennis and listening to good Music",
   },
 ];
 
@@ -48,27 +48,27 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "100",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "60",
+    level: "100",
   },
   {
     Icon: BsCircleFill,
     name: "React Native",
-    level: "80",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "70",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "Django",
-    level: "80",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
