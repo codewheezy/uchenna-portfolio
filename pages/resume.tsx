@@ -12,15 +12,15 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-semibold">
               Computer Appications
             </h5>
-            <p className="font-semibold">Bangalore University (2015-2018)</p>
+            {/* <p className="font-semibold">Bangalore University (2015-2018)</p>
             <p className="my-3">
               I currently pursuing B.tech in Computer Science Engineering
               from Academy of Technology
-            </p>
+            </p> */}
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-2xl font-semibold">Experience</h5>
+          {/* <h5 className="my-3 text-2xl font-semibold">Experience</h5>
           <div className="">
           <h5 className="my-2 text-xl font-semibold">Frontend Developer</h5>
             <p className="font-semibold"> - Saudi Arabia</p>
@@ -31,7 +31,7 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-semibold">Frontend Developer</h5>
             <p className="font-semibold">Codigo World - Bangalore, India</p>
             <p className="my-3"></p>
-          </div>
+          </div> */}
         </div>
       </div>
 

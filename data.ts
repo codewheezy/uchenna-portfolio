@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,<b>React</b> and <b>Angular</b>",
   },
   {
     Icon: FaServer,
@@ -106,8 +106,8 @@ export const projects: IProject[] = [
     description:
       "This app shows a statistical view about corona virus over the world",
     image_path: "/images/covid.jpg",
-    deployed_url: "!#",
-    github_url: "!#",
+    deployed_url: "https://covid-19-tracker1.vercel.app/",
+    github_url: "https://github.com/codewheezy/covid-19-tracker",
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
@@ -115,7 +115,7 @@ export const projects: IProject[] = [
     name: "Algorithm Visualizer",
     image_path: "/images/algoVisual.png",
     deployed_url: "!#",
-    github_url: "!#",
+    github_url: "https://github.com/codewheezy/algorithm-visualizer",
     category: ["react"],
     description:
       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
