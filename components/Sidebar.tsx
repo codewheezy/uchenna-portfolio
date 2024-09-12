@@ -3,6 +3,7 @@ import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import Link from "next/link";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -13,14 +14,10 @@ const Sidebar = () => {
 
   return (
     <>
-      <Image
+      <img
         src="/images/uche-pics.png"
         alt="avatar"
-        className="mx-auto border rounded-full"
-        height="128px"
-        width="128px"
-        layout="intrinsic"
-        quality="100"
+        className="mx-auto border rounded-full w-[128px] h-[128px]"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text">Uchenna</span> Ibe
@@ -29,7 +26,7 @@ const Sidebar = () => {
         <b>Software Developer</b>
       </p>
       {/* Resume */}
-      <a
+      <Link
         href="/assets/Sumit Dey Resume.pdf"
         download="Sumit Dey Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
@@ -38,21 +35,22 @@ const Sidebar = () => {
         <span>
           <b>Download Resume</b>
         </span>
-      </a>
+      </Link>
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a 
+        <Link 
+        href=""
         // href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A" 
         style={{color: '#fd3b56'}}>
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://www.linkedin.com/in/uchenna-ibe-77b49b107" style={{color: '#fd3b56'}}>
+        </Link>
+        <Link href="https://www.linkedin.com/in/uchenna-ibe-77b49b107" style={{color: '#fd3b56'}}>
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://github.com/codewheezy/codewheezy" style={{color: '#fd3b56'}}>
+        </Link>
+        <Link href="https://github.com/codewheezy/codewheezy" style={{color: '#fd3b56'}}>
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
-        </a>
+        </Link>
       </div>
 
       {/* Contacts */}
