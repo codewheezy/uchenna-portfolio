@@ -11,7 +11,7 @@ npm run dev
 ```
 
 ## The project is deployed on Vercel : 
-[Deployed Version](https://uchenna-portfolio.vercel.app/)
+[Deployed Version](https://uchenna-portfolio-iota.vercel.app/)
 
 <!-- ## Project tutorial on YouTube :  -->
 <!--   [Full Playlist of Dev Portfolio Project](https://www.youtube.com/watch?v=Nhb67Eb98tU&list=PLQKg8mIgoxKpvIWyxMM-Nn6s_iww0KX53) -->
