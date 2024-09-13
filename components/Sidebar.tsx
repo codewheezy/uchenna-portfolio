@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <>
       <img
-        src="/images/uche-pics.png"
+        src="/images/uchenna.jpg"
         alt="avatar"
         className="mx-auto border rounded-full w-[128px] h-[128px]"
       />
